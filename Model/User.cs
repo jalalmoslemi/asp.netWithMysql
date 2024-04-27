@@ -7,6 +7,6 @@ namespace MySqlConnector.Model
     public string? name { get; set; }
     public string? family { get; set; }
 
-    public string nationalCode { get; set; }
+    public required string nationalCode { get; set; }
   }
 }
